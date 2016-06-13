@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="arabic">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Rabbi Zidni Ilma</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script data-require="jquery@*" data-semver="2.2.0" 
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script data-require="angular.js@1.4.x" data-semver="1.4.9" 
+            src="https://code.angularjs.org/1.4.9/angular.js" ></script>
+    <script src="scripts/ng-infinite-scroll.min.js"></script>
+    
+    <script src="scripts/Quran.js"></script>
+    <script src="scripts/app.js"></script>
+  </head>
+
+  <body ng-controller="MainBodyCtrl">
+    <div infinite-scroll="myPagingFunction()" infinite-scroll-distance="3">
+      <p ng-repeat="Arabic in Quran" dir="rtl" lang="ar" align="center">{{Arabic.text}}</p>
+    </div>
+  </body>
+
+</html>

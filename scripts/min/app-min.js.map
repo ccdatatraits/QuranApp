@@ -1,0 +1,1 @@
+{"version":3,"sources":["../app.js"],"names":["app","angular","module","controller","$scope","chunkSize","total","Quran","slice","myPagingFunction"],"mappings":"CAAA,WACC,GAAIA,GAAMC,QAAQC,OAAO,UAAW,mBACpCF,GAAIG,WAAW,eAAgB,SAASC,GAEvC,GAAIC,GAAY,GACZC,EAAQ,CACZF,GAAOG,MAAQA,MAAMC,MAAM,EAAGF,GAE9BF,EAAOK,iBAAmB,WACzBH,GAASD,EACTD,EAAOG,MAAQA,MAAMC,MAAM,EAAGF","file":"app-min.js"}
